@@ -1,3 +1,27 @@
-h1{
-    background-color: red;
+.side-logo{
+    position: relative;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    top: 175px;
+    /* left: 4rem; */
+    align-items: center;
+    background: rgba(100, 100, 100, 0.3);
+    width: 480px;;
+    color: white;
+}
+
+.logoText{
+    border: red;
+    font-size:  6rem;
+    font-family: 'brasileirinha_personal_useRg';
+}
+
+@font-face {
+    font-family: 'brasileirinha_personal_useRg';
+    src: url('/fonts/brasileirinha_personal_use-webfont.woff2') format('woff2');        
+    font-weight: normal;
+    font-style: normal;
+
 }
