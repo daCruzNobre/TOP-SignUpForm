@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
+
 <body>
-    <div class="sideLogo">
-        <img src="img/jonathan-borba-yVRlZojvGy0-unsplash.jpg" alt="Beach Vendor in Brazil" width = "480px">
-        <div class="logo">
-            <img src="img/Brasil-Logo.png" alt="Odin logo" height="150px">
-            <div class="logoText"> Brasil</div>
+    <div class="main-wrapper">
+        <div class="side-logo">
+            <!-- <img class="background-side" src="img/halie-west-25xggax4bSA-unsplash.jpg"> -->
+            <div class="logo">
+                <img src="img/odin-lined.png" alt="Odin logo" height="150px">
+                <div class="logoText"> Odin</div>
+            </div>
+            <p class="credits">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
+                    href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>.
+            </p>
         </div>
+        <div class="main">
+            <div class="header">
+                <p>This is not a real online service! You know you need something <br>
+                    like this in yout life to help you realise tour deepst dreams.<br>
+                    Sign up <em>now</em> and get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="form-container">
+                <p style="margin-left: 60px; font-size: 1.8em;">Let's do this!</p>
+                <form id="form" action="">
+                    <div class="form-sections">
+                        <div class="form-contents">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="" id="first-name">
+                        </div>
+                        <div class="form-contents">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="" id="last-name">
+                        </div>
+                    </div>
+                    <div class="form-sections">
+                        <div class="form-contents">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="" id="email">
+                        </div>
+                        <div class="form-contents">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="" id="phone">
+                        </div>
+                    </div>
+                    <div class="form-sections">
+                        <div class="form-contents">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" minlength="6" name="" id="password" required>
+                        </div>
+                        <div class="form-contents">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" minlength="6" name="" id="confirm-password" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <input form="form" value="Create Account" type="submit">
+                <p class="loginp">Already Have an Account? <a class="login" href="">Log in</a></p>
+            </div>
+        </div>
+        <script src="./app/app.index.js"></script>
     </div>
-    <div class="main">
-        <div class="header"></div>
-        <div class="formContainer"></div>
-        <div class="footer"></div>
-    </div>
-    <script src="./app/app.index.js"></script>
 </body>
+
 </html>
